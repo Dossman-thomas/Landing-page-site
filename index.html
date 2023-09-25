@@ -25,7 +25,7 @@
         </li>
 
         <li>
-          <a>Contact</a>
+          <a href="#contact-section">Contact</a>
         </li>
 
       </ul>
@@ -48,25 +48,27 @@
 
     </figure>
 
-    <section>
-
-      <h2>Contact Me</h2>
+    <section id="contact-section">
 
       <form>
 
+        <h2>Contact Me</h2>
+        
+        <div class="contact-form">
         <ul>
           <li>
-            <label>Name:</label>
-            <input>
+            <label for="name">Name:</label>
+            <input id="name" name="user-name">
           </li>
+          <br><br>
           <li>
-            <label>Email:</label>
-            <input>
+            <label for="email">Email:</label>
+            <input id="email" name="user-email">
           </li>
         </ul>
-
-        <div>
-          <button>Send</button>
+        <br>
+        
+          <button type="submit">Send</button>
         </div>
 
       </form>
